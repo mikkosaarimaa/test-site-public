@@ -285,7 +285,11 @@ footer {
     transition: .5s;
 }
 .button-link:hover {
-    background-color:rgb(49, 49, 56)
+    background-color:rgb(49, 49, 56);
+    box-shadow: 0 0 12px #0094e2;
+}
+button, a {
+    cursor: pointer;
 }
 
 /* media queries for small screens: */
