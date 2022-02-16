@@ -260,16 +260,20 @@ footer {
 /* button takes to top of page, rest of code in .JS file */
 
 #scrollToTopBtn {
+    font-size: 80px;
     border: none;
-    padding: 10px 0 0 0;
-    font-size: 30px;
-    width: 45px;
+    font-family: 'Advent Pro';
     position: fixed;
     right: 50px;
     bottom: 50px;
     opacity: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0,0,0,.2);
     transition: opacity .5s linear;
-    background-color: rgb(182, 182, 182);
+    width: 45px;
+    padding: 10px 3px 0 0;
+    height: 48px;
+    color: rgb(100,100,100);
 }
 
 /* ------buttons for boxes ------*/
