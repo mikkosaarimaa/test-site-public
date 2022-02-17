@@ -17,3 +17,20 @@ function scrollFunction() {
     topBtn.style.opacity = "0"
   }
 }
+
+// Toggle navigation bar dropdown menu on/off by clicking on any part of it
+function toggleNav() {
+  var mySidenav = document.getElementById("mySidenav");
+    if (mySidenav.style.height == "0px") {
+      mySidenav.style.height = "200px";
+      mySidenav.style.paddingTop = "60px";
+    } else {
+      mySidenav.style.height = "0px";
+      mySidenav.style.paddingTop = "0px";
+    }
+  }
+  
+function closeNav() {
+  document.getElementById("mySidenav").style.height = "0";
+  document.getElementById("mySidenav").style.paddingTop = "0px";
+}
